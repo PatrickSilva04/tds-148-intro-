@@ -31,4 +31,11 @@ h1{
     padding: 10vh 0px;
     height: auto;
 }
+h2{
+    color: #ffffff;
+    display: flex;
+align-items: center;    
+justify-content: center;
+
+}
 
