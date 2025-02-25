@@ -58,6 +58,7 @@ button{
     opacity: 0.6;
     transition: all 200ms linear;
 }
+
 input{
     padding: 10px;
     border-radius: 999px;
