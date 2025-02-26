@@ -11,6 +11,7 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 .img-logo{
@@ -20,6 +21,16 @@
 
 section{
     height: 100vh;
+    
+}
+.navbar {
+    background-color: var(--color5);
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 3px solid var(--color1);
+
 }
 
 
@@ -29,16 +40,16 @@ section{
     justify-content: center;
     flex-wrap: wrap;
     gap: 2vw;
+    
 }
-
 .s1-left{
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: center;
     width: 400px;
 }
 
-.s1-right{
+.s1-right{  
     width: 600px;
 }
 
@@ -81,7 +92,7 @@ section{
     background-color: black;
     width: 16rem;
     height:450px;
-    border: 2px solid #ec0b0b;
+    border: 2px solid var(--color1);
     border-radius: 10px;
     padding: 10px;
     display: flex;
@@ -125,23 +136,6 @@ section{
     padding: 10vh 0px;
     background-color: black(165, 23, 23, 0.971);
 }
-
-.wrap-acc{
-    width: 80%;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 5px;
-}
-
-.accordion-button{
-    background: #000000df !important;
-    color: white  !important;
-}
-
-.accordion-item{
-    background: #000000a4 !important;
-    color: white  !important;
-}
-
 #s4{
     display: flex;
     flex-direction: column;
@@ -156,11 +150,13 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(2, 2, 2);
     background-color: black;
     width: 300px;
     padding: 20px;
     border-radius: 5px;
+    border: 3px solid var(--color1);
+
 }
 
 .formulario button{
@@ -170,14 +166,14 @@ section{
    border: none;
    background: none;
    color: white;
-   border: 2px solid white;
+   border: 2px solid var(--color1);
    transition: all 200ms ease-in-out;
 }
 
 .formulario button:hover{
     color: black;
     border: 2px solid black;
-    background: white;
+    background: var(--color4);
  }
  
 
@@ -203,6 +199,7 @@ section{
     min-height: 80px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 10vh;
+    border: 3px solid var(--color1);
  }
  footer img{
    transition: all 500ms ease-in-out;
